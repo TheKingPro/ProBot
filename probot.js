@@ -1,9 +1,7 @@
-﻿const Discord = require('discord.js');
-const moment = require("moment");  
-const fs = require("fs");      
-const dateFormat = require('dateformat');
-const client = new Discord.Client(); 
-const Canvas = require("canvas"); //npm i canvas
+const Discord = require('discord.js');
+const fs = require('fs');
+const client = new Discord.Client();
+
 const prefix = "#" // برفكس
 let profile = JSON.parse(fs.readFileSync("profile.json", "utf8"))
 
